@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vitor\\source\\repos\\aprendendo_kafka\\consumidor\\consumidor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B42D33A-94E5-4CB3-B437-3B821C8BD094}|consumidor\\consumidor.csproj|c:\\users\\vitor\\source\\repos\\aprendendo_kafka\\consumidor\\consumidor\\consumidor\\consumerservice\\consumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B42D33A-94E5-4CB3-B437-3B821C8BD094}|consumidor\\consumidor.csproj|solutionrelative:consumidor\\consumerservice\\consumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B42D33A-94E5-4CB3-B437-3B821C8BD094}|consumidor\\consumidor.csproj|c:\\users\\vitor\\source\\repos\\aprendendo_kafka\\consumidor\\consumidor\\consumidor\\config\\consumerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B42D33A-94E5-4CB3-B437-3B821C8BD094}|consumidor\\consumidor.csproj|solutionrelative:consumidor\\config\\consumerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B42D33A-94E5-4CB3-B437-3B821C8BD094}|consumidor\\consumidor.csproj|c:\\users\\vitor\\source\\repos\\aprendendo_kafka\\consumidor\\consumidor\\consumidor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B42D33A-94E5-4CB3-B437-3B821C8BD094}|consumidor\\consumidor.csproj|solutionrelative:consumidor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsumerService.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\aprendendo_kafka\\consumidor\\consumidor\\consumidor\\ConsumerService\\ConsumerService.cs",
+              "RelativeDocumentMoniker": "consumidor\\ConsumerService\\ConsumerService.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\aprendendo_kafka\\consumidor\\consumidor\\consumidor\\ConsumerService\\ConsumerService.cs",
+              "RelativeToolTip": "consumidor\\ConsumerService\\ConsumerService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T15:46:22.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsumerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\aprendendo_kafka\\consumidor\\consumidor\\consumidor\\config\\ConsumerConfiguration.cs",
+              "RelativeDocumentMoniker": "consumidor\\config\\ConsumerConfiguration.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\aprendendo_kafka\\consumidor\\consumidor\\consumidor\\config\\ConsumerConfiguration.cs",
+              "RelativeToolTip": "consumidor\\config\\ConsumerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T15:26:33.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\aprendendo_kafka\\consumidor\\consumidor\\consumidor\\Program.cs",
+              "RelativeDocumentMoniker": "consumidor\\Program.cs",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\aprendendo_kafka\\consumidor\\consumidor\\consumidor\\Program.cs",
+              "RelativeToolTip": "consumidor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T15:16:32.727Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
