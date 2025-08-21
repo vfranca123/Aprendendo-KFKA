@@ -1,0 +1,43 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Folders
+bin/
+obj/
+Debug/
+Release/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Kafka logs (se você tiver pastas de logs locais)
+logs/
+*.log
+
+# Node / npm (se houver frontend)
+node_modules/
+
+# Outros arquivos temporários
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Packages
+*.nupkg
+*.snupkg
+*.psmdcp
