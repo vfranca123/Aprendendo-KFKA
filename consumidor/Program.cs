@@ -1,3 +1,4 @@
+using Confluent.Kafka;
 using consumidor.config;
 using consumidor.service;
 
@@ -6,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<ConsumerConfiguration>();
+builder.Services.AddSingleton<ConsumerConfig>(ConsumerConfiguration.getConsumerCofig());
 builder.Services.AddHostedService<KafkaConsumerService>();//hosted : um seviço que roda em background, essencial para aplicações que precisam consumir mensagens de forma contínua, como é o caso de um consumidor Kafka.
 
 var app = builder.Build();

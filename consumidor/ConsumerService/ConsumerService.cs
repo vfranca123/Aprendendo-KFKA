@@ -1,30 +1,27 @@
 using Confluent.Kafka;
-using consumidor.config;
-
 
 namespace consumidor.service
-{//hosted : um seviço que roda em background, essencial para aplicações que precisam consumir mensagens de forma contínua, como é o caso de um consumidor Kafka.
- 
+{
     public class KafkaConsumerService : BackgroundService
     {
-        private readonly ConsumerConfiguration _config;
-        private readonly IConsumer<Ignore, string> _consumer; // tipo para IConsumer
+        private readonly ConsumerConfig _config;
+        private readonly IConsumer<Ignore, string> _consumer;
 
-        public KafkaConsumerService(ConsumerConfiguration config)
+        public KafkaConsumerService(ConsumerConfig config)
         {
             _config = config;
-            _consumer = new ConsumerBuilder<Ignore, string>(_config).Build(); // Build retorna IConsumer
+            _consumer = new ConsumerBuilder<Ignore, string>(_config).Build();
         }
 
-        protected override Task ExecuteAsync(CancellationToken stoppingToken) //sobrescreve o método ExecuteAsync da classe BackgroundService
+        protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            return Task.Run(() => //tak.run é uma forma de executar uma tarefa em segundo plano por thread de forma assincrona 
+            return Task.Run(() =>
             {
-                _consumer.Subscribe("pedidos"); // tópico que vai consumir
+                _consumer.Subscribe("pedidos");
 
                 try
                 {
-                    while (!stoppingToken.IsCancellationRequested) // bloqueia até receber uma mensagem
+                    while (!stoppingToken.IsCancellationRequested)
                     {
                         var cr = _consumer.Consume(stoppingToken);
                         Console.WriteLine($"Mensagem recebida: {cr.Message.Value}");
@@ -32,10 +29,10 @@ namespace consumidor.service
                 }
                 catch (OperationCanceledException)
                 {
-                    // Fechar consumer ao encerrar
                     _consumer.Close();
                 }
             }, stoppingToken);
         }
     }
 }
+
